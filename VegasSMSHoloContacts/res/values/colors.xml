@@ -1,0 +1,11 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<color name="holo_blue">#33b5e5</color>
+	<drawable name="holo_blue">#33b5e5</drawable>
+	<color name="holo_blue_light_trans">#4f33b5e5</color>
+	<color name="transparent">#00000000</color>
+	<drawable name="holo_blue_light_trans">#4f33b5e5</drawable>
+	<drawable name="overflow_new_call">#4f00ff00</drawable>
+	<drawable name="overflow_new_call_selected">#00ff00</drawable>
+	<drawable name="transparent">#00000000</drawable>
+</resources>
+	

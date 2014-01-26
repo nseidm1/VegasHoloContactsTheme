@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.vegasholocontacts"
+    android:versionCode="6"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+		android:icon="@drawable/ic_launcher"
+        android:label="Vegas Holo Contacts">
+        <!-- The name here must be vegas_contacts_theme, specify the name of the theme in the value -->
+        <meta-data android:name="vegas_contacts_theme" android:value="Holo"/>
+        
+        <!-- Specify the font color here -->
+        <!-- This is useful to create contrast with your background -->
+        <!-- You must include the escaped space in front of the hex color value without the pound symbol -->
+        <meta-data android:name="vegas_contacts_font_color" android:value="\ ffffff"/>
+        
+       	<activity
+            android:name=".VegasSMSSHoloContacts"
+            android:excludeFromRecents="true"
+            android:theme="@style/Transparent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>        
+    </application>
+</manifest>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.project.vegasholocontacts"
-    android:versionCode="9"
+    android:versionCode="10"
     android:versionName="1.1" >
 
     <uses-sdk
@@ -22,7 +22,7 @@
         
         <!-- This is the new message highlight color for the contact's text button -->
         <!-- You must include the escaped space in front of the hex color value without the pound symbol -->
-        <meta-data android:name="vegas_contacts_new_message_color" android:value="\ ffff99"/>
+        <meta-data android:name="vegas_contacts_new_message_color" android:value="\ ff3300"/>
         
         <activity
             android:name=".VegasSMSSHoloContacts"
